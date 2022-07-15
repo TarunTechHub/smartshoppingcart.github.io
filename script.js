@@ -69,7 +69,6 @@ createacctbtn.addEventListener("click", function() {
       const user = userCredential.user;
       // ...
       window.alert("Success! Account created.");
-      window.location = "https://taruntechhub.github.io/tarun.github.io/home";
     })
     .catch((error) => {
       const errorCode = error.code;
@@ -92,6 +91,7 @@ submitButton.addEventListener("click", function() {
       const user = userCredential.user;
       console.log("Success! Welcome back!");
       window.alert("Success! Welcome back!");
+      window.location = "https://taruntechhub.github.io/tarun.github.io/home";
       // ...
     })
     .catch((error) => {
