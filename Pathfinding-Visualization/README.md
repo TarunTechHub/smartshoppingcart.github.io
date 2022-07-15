@@ -1,3 +1,3 @@
 # Pathfinding Viewer
 
-[Checkout the proyect!](https://pathfinding-visualization.vercel.app/)
+[Checkout the project!](https://pathfinding-visualization.vercel.app/)
