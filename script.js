@@ -91,7 +91,7 @@ submitButton.addEventListener("click", function() {
       const user = userCredential.user;
       console.log("Success! Welcome back!");
       window.alert("Success! Welcome back!");
-      window.location = "https://taruntechhub.github.io/smartshoppingcart.github.io/home";
+      window.location ="https://taruntechhub.github.io/smartshoppingcart.github.io/home";
       // ...
     })
     .catch((error) => {
