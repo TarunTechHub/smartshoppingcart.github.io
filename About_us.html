@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #6b5b95;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>PES INSTITUTE OF TECHNOLOGY AND MANAGEMENT</p>
+  <p>BACHELOR OF ENGINEERING</p>
+  <p>in</p>
+  <p>COMPUTER SCIENCE AND ENGINEERING</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Mehantha M </h2>
+        <p class="title">Team Member</p>
+        <p>4PM18CS047</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Priyanka CS</h2>
+        <p class="title">Team Member</p>
+        <p>4PM18CS066</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Savina Gowda</h2>
+        <p class="title">Team Member</p>
+        <p>4PM18CS085</p>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Tarun S</h2>
+        <p class="title">Team Member</p>
+        <p>4PM18CS107</p>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Mr. Puneeth B H</h2>
+        <p class="title">(Asst. Prof., Dept. of CSE)</p>
+        <p>Project Guide</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
