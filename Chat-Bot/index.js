@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const inputField = document.getElementById("input");
   inputField.addEventListener("keydown", (e) => {
     if (e.code === "Enter") {
+      event.preventDefault();
+      document.getElementById("myBtn").click();
       let input = inputField.value;
       inputField.value = "";
       output(input);
