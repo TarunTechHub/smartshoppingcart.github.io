@@ -32,7 +32,7 @@ span {
 }
 
 .chat {
-	height: 300px;
+	height: 600px;
 	width: 50vw;
 	display: flex;
 	flex-direction: column;
