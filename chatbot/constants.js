@@ -60,7 +60,7 @@ const replies = [
   ["That's ok","I understand","What do you want to talk about?"],//17
   ["Please say something :("],//18
   ["Haha!","Good one!"],//19
-  ["your are gem and most favourite person in my life"]
+  ["your are gem and most favourite person in my life"],
   ["i know her she is from kadur and studying in shimoga"]
 
 // Random for any other user input
