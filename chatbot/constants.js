@@ -27,7 +27,6 @@ const prompts = [
   ["haha","ha","lol","hehe","funny","joke"],//19
   ["I'm Sanjana Tell About Me"],
   ["Priyanka"]
-]
 
 // Possible responses, in corresponding order
 
