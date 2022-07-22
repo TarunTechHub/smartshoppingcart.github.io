@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const inputField = document.getElementById("input");
-  inputField.addEventListener("keydown", (e) => {
-    if (e.code === "Enter") {
+  inputField.addEventListener("click", async (e) => {
+    e.preventDefault();
       let input = inputField.value;
       inputField.value = "";
       output(input);
-    }
   });
 });
 
