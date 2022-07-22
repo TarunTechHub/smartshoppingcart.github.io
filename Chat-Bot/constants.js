@@ -56,7 +56,7 @@ const replies = [
   ["Bro!"],
   ["Great question"],
   ["That's ok","I understand","What do you want to talk about?"],
-  ["Please say something :("],
+  ["Wellcome to smart shopping mall :("],
   ["Haha!","Good one!"]
 ]
 
@@ -65,7 +65,7 @@ const replies = [
 const alternative = [
   "Same",
   "Go on...",
-  "Bro...",
+  "Pardon...",
   "Try again",
   "I'm listening...",
   "I don't understand :/"
