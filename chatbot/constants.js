@@ -24,9 +24,7 @@ const prompts = [
   ["what", "why", "how", "where", "when"],//16
   ["no","not sure","maybe","no thanks"],//17
   [""],//18
-  ["haha","ha","lol","hehe","funny","joke"],//19
-  ["I'm Sanjana Tell About Me"],
-  ["Priyanka"]
+  ["haha","ha","lol","hehe","funny","joke"]
 
 // Possible responses, in corresponding order
 
@@ -58,10 +56,7 @@ const replies = [
   ["Great question"],//16
   ["That's ok","I understand","What do you want to talk about?"],//17
   ["Please say something :("],//18
-  ["Haha!","Good one!"],//19
-  ["your are gem and most favourite person in my life"],
-  ["i know her she is from kadur and studying in shimoga"]
-
+  ["Haha!","Good one!"]
 // Random for any other user input
 
 const alternative = [
