@@ -4,8 +4,8 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-const char* ssid     = "monu";
-const char* password = "monuSuth";
+const char* ssid     = "tarun";
+const char* password = "21071999";
 
 WiFiServer server(80);
 
